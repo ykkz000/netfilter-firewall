@@ -8,7 +8,7 @@ export TARGET_DIR		= $(PROJECT_DIR)/target
 
 ifneq ($(KERNELRELEASE),)
 obj-m       := ${TARGET}.o
-${TARGET}-y := main.o
+${TARGET}-y := main.o fw.o
 ccflags-y   := -I$(INCLUDE_DIR)
 else
 
