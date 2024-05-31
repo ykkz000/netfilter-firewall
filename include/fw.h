@@ -2,7 +2,6 @@
 #define FW_H
 
 #include <linux/types.h>
-#include <linux/fs.h>
 #include <linux/skbuff.h>
 
 typedef u32 fw_code_t;
