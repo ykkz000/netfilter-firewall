@@ -1,8 +1,14 @@
 # Netfilter Firewall
+## License
+[LICENSE](./LICENSE)
+## Requirement
+1. Linux Kernel (Only tested on version 5.15.0-107-generic)
+2. Linux Source (With KBuild)
+## Compile
+Use `make`.
 ## Notice
 Port is available for only TCP and UDP.
 Transport layer protocol is available for only IPv4.
-## FW Language
 ## FW Code
 ### Registers
 Provide 32-bit generic registers(number from 0 to 31), #0 always 0.  
